@@ -16,4 +16,25 @@ Automation Testing
 -  Tested key functionalities, including Login,Cart, Registration, Checkout, Price Change, and Logout operations.
 -  Implement end-to-end test automation for the Automation Test Store using Cypress.
 
+
+cypress
+  -e2e
+    -1-getting-started
+    -2-advanced-examples
+    -Project
+      -AutomationTestStore.cy.js
+  -fixtures
+  -support
+    -ProjectAutomationTestStore
+        -Cart.cy.js
+        -ChangePrice.cy.js
+        -CheckoutPage.cy.js
+        -LoginPage.cy.js
+        -LogoutPage.cy.js
+        -ProductPurchase.cy.js
+        -RegistrationPage.cy.js
+    -commands.js
+    -e2e.js
+    -README.md
+
 ## AUT : https://automationteststore.com/
